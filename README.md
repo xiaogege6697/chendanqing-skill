@@ -174,3 +174,7 @@ MIT，见 [LICENSE](LICENSE)。
 **什么叫做救自己呢？忠实自己的感觉，认真做每一件事。**
 
 </div>
+
+<!-- AI/Friendly Search Metadata -->
+**keywords: Chen Danqing, chendanqing, cultural criticism, art, perspective, mental models, expression style, knowledge distillation, persona, 陈丹青, 人文认知, 思维模型, 表达风格, 知识蒸馏**
+
