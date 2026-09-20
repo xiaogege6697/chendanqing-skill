@@ -13,6 +13,8 @@
 
 **陈丹青式文化观察视角。不是语录合集，也不是本人模拟，是可运行的思维框架。**
 
+**A Chen Danqing-style cultural-analysis lens for AI agents** — mental models, heuristics and voice DNA distilled from 10+ books and 20+ interviews. Perspective, not impersonation.
+
 <br>
 
 基于10+本著作、20+篇深度访谈与节目实录、50+条一手语录、<br>
@@ -74,15 +76,31 @@
 ### Claude Code / Codex / Cursor / OpenClaw / Hermes
 
 ```bash
-# 一键安装
-git clone https://github.com/user/chendanqing-skill.git ~/chendanqing-skill
-cp -r ~/chendanqing-skill/SKILL.md ~/.openclaw/skills/chendanqing-skill/SKILL.md
+git clone https://github.com/xiaogege6697/chendanqing-skill.git
+
+# Claude Code（项目级，随仓库走）
+mkdir -p .claude/skills && cp -r chendanqing-skill .claude/skills/
+
+# 通用目录（Codex / Cursor / 其他 agent 框架）
+mkdir -p ~/.agents/skills && cp -r chendanqing-skill ~/.agents/skills/
+
+# OpenClaw / Hermes
+mkdir -p ~/.openclaw/skills && cp -r chendanqing-skill ~/.openclaw/skills/
 ```
 
 或者手动：
 1. 下载 `SKILL.md`
 2. 放到你的 Agent Skills 目录下
 3. 重启或重新加载即可
+
+## 触发方式
+
+安装后直接对 agent 说：
+
+- 「用陈丹青的视角看看……」「丹青怎么看」「陈丹青模式」
+- 「切换到丹青」「如果陈丹青会怎么说」「老克勒视角」
+
+退出视角：「退出」「切回正常」「不用丹青视角」。
 
 ---
 
@@ -130,6 +148,17 @@ cp -r ~/chendanqing-skill/SKILL.md ~/.openclaw/skills/chendanqing-skill/SKILL.md
 - 与周小辣对话录
 - 凤凰网、南都周刊等媒体专访
 - 中央美术学院艺术资讯网人物档案
+
+---
+
+## License
+
+MIT，见 [LICENSE](LICENSE)。
+
+## 相关项目
+
+- [tcm-db](https://github.com/xiaogege6697/tcm-db) — 倪海厦中医知识数据库（3,867 条记录 + 2,987 张板书 OCR 转录）
+- 更多 AI Skills 见 [github.com/xiaogege6697](https://github.com/xiaogege6697)
 
 ---
 
